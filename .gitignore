@@ -1,0 +1,30 @@
+# Ignore everything by default. Keep only source code, docs, and build inputs.
+*
+!*/
+
+# Source code
+!src/**/*.cs
+!tests/**/*.cs
+
+# Docs
+!docs/**
+!*.md
+
+# Build inputs and version
+!version.txt
+!build.bat
+!app.manifest
+!tools/**
+!tests/build_tests.bat
+!.gitignore
+
+# Build outputs and local data stay ignored even inside kept folders
+bin/
+tests/bin/
+releases/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.jsonl
