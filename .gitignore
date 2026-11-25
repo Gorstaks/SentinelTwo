@@ -15,6 +15,7 @@
 !build.bat
 !app.manifest
 !tools/**
+!.github/workflows/*.yml
 !tests/build_tests.bat
 !.gitignore
 
